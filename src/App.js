@@ -17,11 +17,12 @@ function App() {
       <NavMnd />
       <Barra/>
       <Routes>
-          <Route path='/Crew' element={<Crew/>} ></Route>        
-          <Route path='/Videos' element={<Videos/>} ></Route>
-          <Route path='/Discos' element={<Discos/>} ></Route>
+         {/*<Route path='/' element={<Crew/>} ></Route>        
+          <Route path='/' element={<Videos/>} ></Route>
+  <Route path='/' element={<Discos/>} ></Route> */}
           <Route path='/Cypher' element={<Cypher/>} ></Route>    
-          <Route path='/Eventos' element={<Eventos/>} ></Route> 
+          { /*<Route path='/' element={<Eventos/>} >
+        </Route>   */} 
         </Routes>
     
     </div>

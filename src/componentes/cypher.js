@@ -2,13 +2,14 @@ import React from 'react';
 import Organizador from './OrganizadordeV';
 import "../estilos/Organizador.css";
 
+
 function Cypher() {
   // Arreglo de objetos de videos
   const videos = [
     {
       id: 1,
       title: '01',
-      embedUrl: 'https://youtu.be/yuRbCEDhADE',
+      embedUrl: 'https://www.youtube.com/watch?v=53SxNwTojvc',
     },
     {
       id: 2,

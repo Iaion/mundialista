@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from "react-player"
 
 
 function OrganizadordeV(props) {
@@ -7,15 +8,21 @@ function OrganizadordeV(props) {
       {props.videos.map((video) => (
         <div key={video.id}>
           <h2>{video.title}</h2>
-          <iframe
-            width="560"
-            height="315"
-            src={video.embedUrl}
-            title={video.title}
-            frameBorder="0"
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <ReactPlayer>
+          <iframe    
+          width="100%" 
+          height="100%" 
+          src={video.embedUrl} 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; 
+          autoplay; 
+          clipboard-write; 
+          encrypted-media; 
+          gyroscope; 
+          picture-in-picture; 
+          web-share"allowfullscreen></iframe>
+            </ReactPlayer> 
         </div>
       ))}
     </div>
