@@ -1,0 +1,46 @@
+#principal{
+    position: fixed; /* Establece la posición fija para la barra de navegación */
+    padding: 2rem;
+    width: 10%;  
+    height: 100%;  
+    background-color: transparent;
+    z-index: 1000;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  #principal .navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+ 
+  #principal .navbar-nav .nav-link{
+    color: black;
+  }
+  #principal .nav-link :hover {
+    color: red;
+  }
+ #principal a:hover {
+    color: red;
+         
+  }
+  #principal a { 
+    color: black;
+  }
+  
+  #principal .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #principal .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: downleft;
+    text-align: center;
+    justify-content: center;
+    transform: rotate(180deg);
+    
+    margin: 1rem;
+  }
+  
